@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>My First Web Application</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="holder">
+    <div class="slides">
+      <img src="pexels-andrea-piacquadio-825430 - Montreux, VD, Switzerland.jpg" alt="Montreux" />
+      
+    </div>
+
+    <div class="slides">
+      <img src="pexels-bhuwan-dhingra-452544 - Luzern.jpg">
+    </div>
+
+    <div class="slides">
+      <img src="pexels-h-emre-773473 - Rigi Kulm, SZ, Switzerland.jpg">
+    </div>
+      
+    <div class="slides">
+      <img src="pexels-magda-ehlers-735775 - Zürich, ZH, Switzerland.jpg">
+    </div>
+
+    <div class="slides">
+      <img src="pexels-tanathip-rattanatum-2026452 - Lauterbrunnen, BE, Switzerland.jpg">
+    </div>
+      
+    <div class="slides">
+      <img src="pexels-tanathip-rattanatum-2026454 - Spiez, BE, Switzerland.jpg">
+    </div>
+  </div>
+
+  <div class="prevContainer"><a class="prev" onclick="plusSlides(-1)">
+    <svg viewBox="0 0 24 24">
+    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+</svg>
+    </a></div>
+  <div class="nextContainer"><a class="next" onclick="plusSlides(1)">
+    <svg viewBox="0 0 24 24">
+  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+</svg>
+    </a></div>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+
+  <div class="row">
+    <div class="column">
+      <img class="slide-thumbnail" src="pexels-andrea-piacquadio-825430 - Montreux, VD, Switzerland.jpg" onclick="currentSlide(1)" alt="<strong>Montreux, Switzerland</strong> - traditional resort town on Lake Geneva">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="pexels-bhuwan-dhingra-452544 - Luzern.jpg" onclick="currentSlide(2)" alt="<strong>Luzern, Switzerland</strong> - compact city sitting amid snowcapped moutains on Lake Lucerne, known for its preserved medieval architecture">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="pexels-h-emre-773473 - Rigi Kulm, SZ, Switzerland.jpg" onclick="currentSlide(3)" alt="<strong>Rigi Kulm, Switzerland</strong> - ski resort in the Swiss Alps">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="pexels-magda-ehlers-735775 - Zürich, ZH, Switzerland.jpg" onclick="currentSlide(4)" alt="<strong>Zürich, Switzerland</strong> - largest city in Switzerland, a global center for banking and finance, university city and boutique metropolis by the water">
+    </div>
+    <div class="column">
+      <img class="slide-thumbnail" src="pexels-tanathip-rattanatum-2026452 - Lauterbrunnen, BE, Switzerland.jpg" onclick="currentSlide(5)" alt="<strong>Lauterbrunnen, Switzerland</strong> - village in Swiss Alps known for its 300m-high waterfalls">
+    </div>    
+    <div class="column">
+      <img class="slide-thumbnail" src="pexels-tanathip-rattanatum-2026454 - Spiez, BE, Switzerland.jpg" onclick="currentSlide(6)" alt="<strong>Spiez, Switzerland</strong> - Swiss town nestled between hills amd vineyards on the shore of Lake Thun, a retreat from the city life dominated by a magnificient castle ">
+    </div>
+  </div>
+</div>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
